@@ -1,0 +1,76 @@
+.login-page {
+  display: block;
+  overflow: hidden;
+  margin: auto;
+  padding: auto; }
+  @media screen and (min-width: 990px) {
+    .login-page .login-left {
+      padding: 25% 330px 0 0;
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      width: 100%;
+      background: #3cd5b7; }
+      .login-page .login-left .inventory {
+        position: relative;
+        height: 100%;
+        width: 100%; }
+        .login-page .login-left .inventory h1 {
+          text-align: center; }
+        .login-page .login-left .inventory span {
+          position: absolute;
+          right: 10px;
+          bottom: 0;
+          padding: 10px; } }
+  .login-page .login-right {
+    display: block; }
+    @media screen and (min-width: 990px) {
+      .login-page .login-right {
+        padding: 200px 10px;
+        width: 330px;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        background: #fff;
+        box-shadow: -4px 0px 11px #a4a8b9;
+        -moz-box-shadow: -4px 0px 11px #a4a8b9;
+        -webkit-box-shadow: -4px 0px 11px #a4a8b9; } }
+    .login-page .login-right .form-group button {
+      display: block;
+      float: left; }
+    .login-page .login-right .form-group .loading {
+      border: 5px solid #f3f3f3;
+      -webkit-animation: spin 1s linear infinite;
+      animation: spin 1s linear infinite;
+      border-top: 5px solid #555;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      display: block;
+      float: left;
+      margin-left: 10px; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+footer {
+  bottom: 0;
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  padding: 5px; }
+  footer .copyright {
+    width: 100%;
+    padding: 0 335px 0 0;
+    float: right;
+    text-align: right; }
